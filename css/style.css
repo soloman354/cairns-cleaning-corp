@@ -12,3 +12,33 @@ nav a{color:white;text-decoration:none;margin-left:20px}
 .card{padding:25px;border:1px solid #ddd;border-radius:8px}
 section{padding:60px 0}
 footer{background:#003366;color:white;text-align:center;padding:20px}
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+max-width:600px;
+margin:auto;
+}
+
+input,
+select,
+textarea{
+padding:15px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:16px;
+}
+
+textarea{
+min-height:120px;
+}
+
+button{
+background:#2E5CB8;
+color:white;
+border:none;
+padding:15px;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+}
