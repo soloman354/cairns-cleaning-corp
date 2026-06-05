@@ -5,7 +5,7 @@ header{background:#003366;color:white}
 .nav{display:flex;justify-content:space-between;align-items:center;padding:15px 0}
 nav a{color:white;text-decoration:none;margin-left:20px}
 .logo{display:flex;align-items:center;gap:10px}
-.logo img{height:50px}
+.logo img{height:100px;width:auto}
 .hero{padding:100px 20px;text-align:center;background:#f8fafc}
 .btn{background:#0b84ff;color:white;padding:12px 20px;text-decoration:none;border-radius:6px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
