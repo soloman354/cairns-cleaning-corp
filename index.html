@@ -125,54 +125,89 @@
 
 </section>
     
-  <section id="quote" class="container">
-<h2>Request a Free Quote</h2>
+ <section id="quote">
 
-<form name="quote"
-      method="POST"
-      data-netlify="true"
-      netlify 
-      action="/thank-you.html">
+    <div class="container">
 
-<input type="hidden"
-       name="form-name"
-       value="quote">
+        <div class="quote-wrapper">
 
-<input type="text"
-       name="name"
-       placeholder="Your Name"
-       required>
+            <div class="quote-info">
 
-<input type="text"
-       name="business"
-       placeholder="Business Name">
+                <h2>Get Your Free Quote</h2>
 
-<input type="email"
-       name="email"
-       placeholder="Email"
-       required>
+                <p>
+                    Looking for reliable commercial cleaning in Cairns?
+                    Tell us about your requirements and we'll provide a
+                    tailored quote.
+                </p>
 
-<input type="tel"
-       name="phone"
-       placeholder="Phone Number">
+                <div class="contact-item">
+                    📞 0425 071 354
+                </div>
 
-<select name="service">
-<option>Office Cleaning</option>
-<option>Medical Centre Cleaning</option>
-<option>Retail Cleaning</option>
-<option>Strata Cleaning</option>
-<option>Window Cleaning</option>
-<option>Deep Cleaning</option>
-</select>
+                <div class="contact-item">
+                    ✉️ info@cairnscleaningcorp.au
+                </div>
 
-<textarea name="message"
-placeholder="Tell us about your cleaning requirements"></textarea>
+                <div class="contact-item">
+                    📍 Cairns & Surrounding Areas
+                </div>
 
-<button type="submit">
-Request Quote
-</button>
+                <div class="contact-item">
+                    ⏱ Response within 24 hours
+                </div>
 
-</form>
+            </div>
+
+            <form name="quote"
+                  method="POST"
+                  data-netlify="true">
+
+                <input type="hidden"
+                       name="form-name"
+                       value="quote">
+
+                <input type="text"
+                       name="name"
+                       placeholder="Your Name"
+                       required>
+
+                <input type="text"
+                       name="business"
+                       placeholder="Business Name">
+
+                <input type="email"
+                       name="email"
+                       placeholder="Email Address"
+                       required>
+
+                <input type="tel"
+                       name="phone"
+                       placeholder="Phone Number">
+
+                <select name="service">
+                    <option>Select Service</option>
+                    <option>Office Cleaning</option>
+                    <option>Medical Centre Cleaning</option>
+                    <option>Retail Cleaning</option>
+                    <option>Commercial Property Cleaning</option>
+                </select>
+
+                <textarea
+                    name="message"
+                    placeholder="Tell us about your cleaning requirements">
+                </textarea>
+
+                <button type="submit">
+                    Request Free Quote
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
 </section>
 
 <footer>
