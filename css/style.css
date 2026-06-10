@@ -125,7 +125,10 @@ h2{
 }
 
 #about{
-    text-align:center;
+    background:#f1f3f5;
+    padding:80px 40px;
+    border-radius:20px;
+
 }
 
 #about p{
@@ -143,12 +146,6 @@ form{
 
     display:flex;
     flex-direction:column;
-    gap:15px;
-}
-
-input,
-select,
-textarea{
     padding:15px;
     border:1px solid #ddd;
     border-radius:8px;
@@ -275,4 +272,10 @@ nav{
 .hero{
     text-align:center;
 }
+}
+
+#why-us{
+    background:#e9ecef;
+    padding:80px 40px;
+    border-radius:20px;
 }
