@@ -62,21 +62,10 @@ nav a:hover{
 }
 
 .hero{
-    min-height:80vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    color:white;
+    background:#f7f9fc;
+    padding:80px 0;
+}
 
-    background:
-    linear-gradient(
-    rgba(20,35,65,.75),
-    rgba(20,35,65,.75)),
-    url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2000');
-
-    background-size:cover;
-    background-position:center;
 }
 
 .hero h1{
@@ -238,14 +227,13 @@ nav{
 }
 
 .hero h1{
+    color:#13284d;
     font-size:3.5rem;
     line-height:1.1;
-    color:#13284d;
 }
 
 .hero p{
-    margin:25px 0;
-    font-size:1.15rem;
+    color:#555;
 }
 
 .hero-buttons{
