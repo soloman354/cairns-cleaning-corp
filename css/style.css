@@ -39,14 +39,15 @@ header{
 }
 
 .logo img{
-    height:80px;
+    height:100px;
     width:auto;
 }
 
+
 .logo span{
-    font-size:1.3rem;
+    font-size:1.4rem;
     font-weight:700;
-    color:#2E5CB8;
+    color:#13284d;
 }
 
 nav a{
