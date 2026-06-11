@@ -480,3 +480,74 @@ nav{
 .fa-check-double{
     font-size:1.6rem;
 }
+.hero{
+    background:#f7f8fa;
+    padding:120px 0;
+}
+
+.hero-content{
+    max-width:1200px;
+    margin:auto;
+}
+
+.hero-text{
+    max-width:700px;
+}
+
+.hero h1{
+    font-size:4rem;
+    line-height:1.1;
+    font-weight:800;
+    color:#13284d;
+    margin-bottom:25px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    color:#555;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+.btn-secondary{
+    background:white;
+    color:#13284d;
+    border:2px solid #13284d;
+
+    padding:14px 30px;
+    border-radius:10px;
+
+    text-decoration:none;
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.btn-secondary:hover{
+    background:#13284d;
+    color:white;
+}
+@media(max-width:768px){
+
+.hero{
+    padding:80px 0;
+}
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+.hero-buttons a{
+    text-align:center;
+}
+
+}
