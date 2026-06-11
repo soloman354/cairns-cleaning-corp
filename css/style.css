@@ -620,4 +620,13 @@ footer{
     width:20px;
     margin-right:8px;
 }
+.footer-contact a{
+    color:#c7c7c7;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-contact a:hover{
+    color:#ffffff;
+}
 
