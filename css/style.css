@@ -629,4 +629,30 @@ footer{
 .footer-contact a:hover{
     color:#ffffff;
 }
+.contact-item{
+    background:white;
+    padding:18px 22px;
+    border-radius:12px;
+    margin-bottom:15px;
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+.contact-item i{
+    color:#2E5CB8;
+    width:20px;
+    font-size:1rem;
+}
+.contact-item a{
+    color:#333;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.contact-item a:hover{
+    color:#2E5CB8;
+}
 
