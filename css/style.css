@@ -458,7 +458,6 @@ nav{
     padding:100px 40px;
     border-radius:30px;
 }
-
 .trust-icon{
     width:70px;
     height:70px;
@@ -475,8 +474,8 @@ nav{
     color:#2E5CB8;
 
     font-size:1.8rem;
-    line-height:1;
 }
+
 .fa-check-double{
     font-size:1.6rem;
 }
