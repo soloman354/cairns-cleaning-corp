@@ -422,8 +422,10 @@ nav{
 
 .trust-icon{
     font-size:2rem;
+    color:#2E5CB8;
     margin-bottom:15px;
 }
+
 
 .trust-card h3{
     color:#13284d;
@@ -455,4 +457,21 @@ nav{
     background:#f1f3f5;
     padding:100px 40px;
     border-radius:30px;
+}
+.trust-icon{
+    width:70px;
+    height:70px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    margin:0 auto 20px;
+
+    background:#eef4ff;
+    color:#2E5CB8;
+
+    border-radius:50%;
+
+    font-size:1.8rem;
 }
